@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-	Example Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
+ eef's flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
 ## Cooking up a new flavor
@@ -25,25 +25,17 @@
 
 ## 🎨 Installation
 
-<!-- Please replace "username/example" with your repository name. -->
-
 ```sh
-ya pack -a username/example
+ya pack -a Quantumplatr/eef
 ```
 
 ## ⚙️ Usage
-
-<!--
-Please replace "example" with your flavor name.
-
-If your flavor uses a light color scheme, use "light" instead of "dark" wherever it appears below.
--->
 
 To set it as your dark flavor, change the content of your `theme.toml` to:
 
 ```toml
 [flavor]
-dark = "example"
+dark = "eef"
 ```
 
 Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
@@ -55,3 +47,9 @@ See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overv
 The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
 
 Check the [LICENSE](LICENSE) and [LICENSE-tmtheme](LICENSE-tmtheme) file for more details.
+
+## Notes
+
+I copied the [.thmTheme](https://github.com/EdenEast/nightfox.nvim/blob/main/extra/terafox/terafox.tmTheme)
+from EdenEast/nightfox for their terafox variant as that is what I based this
+flavor on. The contents appear to be for Catppuccin Macchiato though.
